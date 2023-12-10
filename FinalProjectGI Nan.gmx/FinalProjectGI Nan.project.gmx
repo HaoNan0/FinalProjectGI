@@ -5,13 +5,44 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
+  <sprites name="sprites">
+    <sprites name="Portal">
+      <sprite>sprites\S_portal_2</sprite>
+      <sprite>sprites\S_portal</sprite>
+    </sprites>
+    <sprites name="Other">
+      <sprite>sprites\S_ground</sprite>
+    </sprites>
+    <sprites name="Main">
+      <sprite>sprites\S_main_run</sprite>
+      <sprite>sprites\S_main_jump</sprite>
+      <sprite>sprites\S_main</sprite>
+    </sprites>
+  </sprites>
   <backgrounds name="background">
-    <background>background\background0</background>
+    <background>background\middle_tileset</background>
+    <background>background\bottom_tileset</background>
+    <background>background\top_tileset</background>
+    <background>background\background3</background>
   </backgrounds>
   <paths name="paths"/>
+  <objects name="objects">
+    <objects name="Portal">
+      <object>objects\O_portal</object>
+      <object>objects\O_portal_2</object>
+    </objects>
+    <objects name="Other">
+      <object>objects\O_ground</object>
+    </objects>
+    <objects name="Main">
+      <object>objects\O_main_run</object>
+      <object>objects\O_main_jump</object>
+      <object>objects\O_main</object>
+    </objects>
+  </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
+    <room>rooms\room1</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
