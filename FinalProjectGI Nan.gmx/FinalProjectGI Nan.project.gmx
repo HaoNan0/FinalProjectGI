@@ -12,11 +12,19 @@
     </sprites>
     <sprites name="Other">
       <sprite>sprites\S_ground</sprite>
+      <sprite>sprites\S_slope_1</sprite>
+      <sprite>sprites\S_slope_2</sprite>
+      <sprite>sprites\S_slope_3</sprite>
+      <sprite>sprites\S_slope_4</sprite>
+      <sprite>sprites\S_coin</sprite>
     </sprites>
     <sprites name="Main">
       <sprite>sprites\S_main_run</sprite>
       <sprite>sprites\S_main_jump</sprite>
       <sprite>sprites\S_main</sprite>
+    </sprites>
+    <sprites name="Menu button">
+      <sprite>sprites\S_start</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -26,6 +34,14 @@
     <background>background\background3</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\Scr_Input.gml</script>
+    <scripts name="Scr">
+      <script>scripts\Scr_Idle.gml</script>
+      <script>scripts\Scr_Run.gml</script>
+      <script>scripts\Scr_Jump.gml</script>
+    </scripts>
+  </scripts>
   <objects name="objects">
     <objects name="Portal">
       <object>objects\O_portal</object>
@@ -33,16 +49,21 @@
     </objects>
     <objects name="Other">
       <object>objects\O_ground</object>
+      <object>objects\O_slope</object>
+      <object>objects\O_slope_1</object>
+      <object>objects\O_slope_2</object>
+      <object>objects\O_slope_3</object>
+      <object>objects\O_slope_4</object>
+      <object>objects\O_coin</object>
     </objects>
     <objects name="Main">
-      <object>objects\O_main_run</object>
-      <object>objects\O_main_jump</object>
       <object>objects\O_main</object>
     </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
     <room>rooms\room1</room>
+    <room>rooms\room2</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
