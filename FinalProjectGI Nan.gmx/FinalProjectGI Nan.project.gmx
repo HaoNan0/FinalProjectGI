@@ -25,6 +25,7 @@
     </sprites>
     <sprites name="Menu button">
       <sprite>sprites\S_start</sprite>
+      <sprite>sprites\S_exit</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -32,6 +33,7 @@
     <background>background\bottom_tileset</background>
     <background>background\top_tileset</background>
     <background>background\background3</background>
+    <background>background\background4</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -42,6 +44,9 @@
       <script>scripts\Scr_Jump.gml</script>
     </scripts>
   </scripts>
+  <fonts name="fonts">
+    <font>fonts\font0</font>
+  </fonts>
   <objects name="objects">
     <objects name="Portal">
       <object>objects\O_portal</object>
@@ -59,10 +64,14 @@
     <objects name="Main">
       <object>objects\O_main</object>
     </objects>
+    <objects name="Menu button">
+      <object>objects\O_start</object>
+      <object>objects\O_exit</object>
+    </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room0</room>
     <room>rooms\room1</room>
+    <room>rooms\room0</room>
     <room>rooms\room2</room>
   </rooms>
   <help>
