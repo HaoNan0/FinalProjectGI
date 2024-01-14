@@ -29,10 +29,13 @@
     <sprites name="Menu button">
       <sprite>sprites\S_start</sprite>
       <sprite>sprites\S_exit</sprite>
+      <sprite>sprites\S_restart</sprite>
     </sprites>
     <sprites name="UI">
       <sprite>sprites\S_win</sprite>
+      <sprite>sprites\S_title</sprite>
     </sprites>
+    <sprite>sprites\sprite16</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\middle_tileset</background>
@@ -73,6 +76,11 @@
     <objects name="Menu button">
       <object>objects\O_start</object>
       <object>objects\O_exit</object>
+      <object>objects\O_restart</object>
+    </objects>
+    <objects name="UI">
+      <object>objects\O_win</object>
+      <object>objects\O_title</object>
     </objects>
   </objects>
   <rooms name="rooms">
